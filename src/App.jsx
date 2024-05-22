@@ -1,7 +1,17 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import HeadCard from "./components/HeadCard";
+import Food from "./components/Food";
+import Category from "./components/Category";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <Navbar />
+      <Hero />
+      <HeadCard />
+      <Food />
+      <Category />
+    </div>
   )
 }
