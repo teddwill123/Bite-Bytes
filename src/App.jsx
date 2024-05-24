@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import HeadCard from "./components/HeadCard";
 import Food from "./components/Food";
 import Category from "./components/Category";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <HeadCard />
       <Food />
       <Category />
+      <Footer />
     </div>
   )
 }
